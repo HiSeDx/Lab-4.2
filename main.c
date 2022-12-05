@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <malloc.h>
+
 
 void print_received_arrays( int **A, int **B, int M, int N);
 int max(int **A,int M,int N);
