@@ -165,7 +165,7 @@ int max(int **A,int M,int N){
 int maximal= 0;
 for(int i=0;i<M;i++){
     for(int j=0;j<M;j++){
-        if (A[i][j] < maximal){
+        if (A[i][j] > maximal){
             maximal = A[i][j];
         }
     }
